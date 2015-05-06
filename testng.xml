@@ -1,0 +1,20 @@
+<suite name="webDriver" parallel="none">
+	<test name="Test In FireFox">
+		<parameter name="browser" value="FFX" />
+		<classes>
+			<class name="testGmail.NewTest" />
+		</classes>
+	</test>
+	<test name="Test In Google Chrome">
+		<parameter name="browser" value="CRM"></parameter>
+		<classes>
+			<class name="testGmail.NewTest"></class>
+		</classes>
+	</test>
+	<test name="Test In Internet Explorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="testGmail.NewTest"></class>
+		</classes>
+	</test>
+</suite>
